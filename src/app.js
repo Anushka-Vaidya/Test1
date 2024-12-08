@@ -77,7 +77,7 @@ function App() {
         {currentPage === "test2" && (
           <div className="test2-page fade-in">
             <iframe
-              src="/test2 (1).html"
+              src="./test2 (1).html"
               title="Test Page 2"
               style={{
                 width: "100%",
@@ -102,7 +102,7 @@ function App() {
         {currentPage === "test_sport" && (
           <div className="test-sport-page fade-in">
             <iframe
-              src="/test_sport.html"
+              src="./test_sport.html"
               title="Test Sport Page"
               style={{
                 width: "100%",
