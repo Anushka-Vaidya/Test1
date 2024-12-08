@@ -16,7 +16,7 @@ const LandingPage = ({ onStart }) => {
       {/* Video background */}
       <img
         className="background-image"
-        src="/data/intro.png" // Replace with your image path
+        src="./data/intro.png" // Replace with your image path
         alt="Intro Background"
         onLoad={handleVideoEnd} // If you want a similar action after the image loads
       />

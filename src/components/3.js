@@ -8,14 +8,14 @@ import * as d3 from 'd3';
 const venues = {
   'LA Memorial Coliseum': {
     floorPlans: [
-      { level: 1, image: '/data/0.jpg' },
-      { level: 2, image: '/data/1.jpg' },
-      { level: 3, image: '/data/2.jpg' },
-      { level: 4, image: '/data/3.jpg' },
-      { level: 5, image: '/data/4.jpg' },
-      { level: 6, image: '/data/5.jpg' },
-      { level: 7, image: '/data/6.jpg' },
-      { level: 8, image: '/data/7.jpg' },
+      { level: 1, image: './data/0.jpg' },
+      { level: 2, image: './data/1.jpg' },
+      { level: 3, image: './data/2.jpg' },
+      { level: 4, image: './data/3.jpg' },
+      { level: 5, image: './data/4.jpg' },
+      { level: 6, image: './data/5.jpg' },
+      { level: 7, image: './data/6.jpg' },
+      { level: 8, image: './data/7.jpg' },
     ],
   },
 };
