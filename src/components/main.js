@@ -18,7 +18,7 @@ function MainBanner() {
       <div className="banner-content">
         {/* Image Section */}
         <div className="banner-image">
-          <img src="/data/ologo.png" alt="Olympic Logo" />
+          <img src="./data/ologo.png" alt="Olympic Logo" />
         </div>
 
         {/* Title and Subtitle */}

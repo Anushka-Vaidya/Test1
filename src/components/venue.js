@@ -54,7 +54,7 @@ function VenueNavigation({ onNext, onBack }) {
           <div className="section">
             <h2>Crowd Density & Management</h2>
             <iframe
-              src="/data/heartrate.mp4"
+              src="./data/heartrate.mp4"
               autoPlay
               muted
               playsInline
@@ -81,7 +81,7 @@ function VenueNavigation({ onNext, onBack }) {
           <div className="section">
             <h2>Foot Traffic</h2>
             <iframe
-              src="/foottraffic.html"
+              src="./foottraffic.html"
               title="Foot Traffic"
               style={{ width: "100%", height: "500px", border: "none" }}
             ></iframe>
@@ -92,7 +92,7 @@ function VenueNavigation({ onNext, onBack }) {
           <div className="section">
             <h2>Live Camera Feed</h2>
             <video
-              src="/data/livefeed.mov" // Replace with your video path
+              src="./data/livefeed.mov" // Replace with your video path
               autoPlay
               muted
               playsInline

@@ -8,7 +8,7 @@ const Sport = () => {
 
   // Load carousel content
   useEffect(() => {
-    fetch("/test1.html")
+    fetch("./test1.html")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Failed to load HTML file: ${response.statusText}`);

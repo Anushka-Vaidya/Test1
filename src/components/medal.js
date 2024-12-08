@@ -4,7 +4,7 @@ const MedalChart = () => {
   return (
     <div style={{ margin: "20px auto", textAlign: "center", width: "90%" }}>
       <iframe
-        src="PROJECT/src/components/medal.html"
+        src="./medal.html"
         title="Olympics Medal Chart"
         style={{
           width: "100%",
