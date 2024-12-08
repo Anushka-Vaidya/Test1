@@ -16,7 +16,7 @@ const LandingPage = ({ onStart }) => {
       {/* Video background */}
       <video
         className="background-video"
-        src="./data/intro.png" // Replace with your video path
+        src="./data/introfast.mp4" // Replace with your video path
         autoPlay
         muted
         playsInline
