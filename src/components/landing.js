@@ -14,14 +14,12 @@ const LandingPage = ({ onStart }) => {
   return (
     <div className="landing-page">
       {/* Video background */}
-      <video
-        className="background-video"
-        src="/data/introfast.mp4" // Replace with your video path
-        autoPlay
-        muted
-        playsInline
-        onEnded={handleVideoEnd}
-      ></video>
+      <img
+        className="background-image"
+        src="/data/intro.png" // Replace with your image path
+        alt="Intro Background"
+        onLoad={handleVideoEnd} // If you want a similar action after the image loads
+      />
 
       {/* Overlay content */}
       {showOverlay && (
